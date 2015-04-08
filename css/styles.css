@@ -1,3 +1,30 @@
 /* Your Styling */
 body {background: #a10023;
 }
+
+h1 {background: yellow;
+	width: 100px;
+	height: 100px;
+	border-radius: 100px;
+	line-height: 100px;
+	text-align: center;
+	color: white;
+}
+
+h1:hover {
+	background: blue;
+	margin-top: 50px;
+	transition: all .5s;
+}
+
+h3 {background: teal;
+}
+
+p {background: cornflowerblue;}
+
+
+a {background: gold;
+	display: block;
+	width: 100px;
+	height: 100px;
+}
